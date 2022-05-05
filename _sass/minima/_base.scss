@@ -94,10 +94,43 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  font-size: $base-font-size;
   font-weight: $base-font-weight;
 }
 
+h1, h2, h3, h5 {
+  font-weight: bold;
+}
 
+h1, h3, h4 {
+  text-transform: capitalize;
+}
+
+h2, h4 {
+  font-style: italic;
+  font-weight: normal;
+  // text-decoration: underline;
+  // text-transform: uppercase;
+  // text-transform: capitalize;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+h5, h6 {
+  text-align: center;
+  text-transform: capitalize;
+}
+
+h5 {
+  background-color: #000;
+  color: #fff;
+}
+
+h6 {
+  background-color: #ccc;
+}
 
 /**
  * Links
@@ -151,7 +184,8 @@ code {
   @include relative-font-size(0.9375);
   border: 1px solid $grey-color-light;
   border-radius: 3px;
-  background-color: #eef;
+  // background-color: #eef;
+  background-color: $code-bg-color;
 }
 
 code {

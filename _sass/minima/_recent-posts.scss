@@ -1,0 +1,24 @@
+.post-wrapper {
+  display: block;
+  margin-bottom: $base-font-size;
+}
+
+a.post-url {
+  color: $text-color;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &:hover > .post-wrapper > .post-title {
+    text-decoration: underline;
+  }
+}
+
+.post-title {
+  font-weight: bold;
+}
+
+.post-excerpt p {
+  display: contents;
+}

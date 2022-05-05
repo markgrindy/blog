@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
+  // border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
@@ -10,23 +10,31 @@
   position: relative;
 }
 
+.custom-header {
+  text-align: center;
+}
+
 .site-title {
-  @include relative-font-size(1.625);
-  font-weight: 300;
-  line-height: $base-line-height * $base-font-size * 2.25;
-  letter-spacing: -1px;
+  // @include relative-font-size(1.625);
+  // font-weight: 300;
+  // line-height: $base-line-height * $base-font-size * 2.25;
+  // letter-spacing: -1px;
   margin-bottom: 0;
-  float: left;
+  // float: left;
+
+  // add custom styles here:
+  font-weight: bold;
 
   &,
   &:visited {
-    color: $grey-color-dark;
+    // color: $grey-color-dark;
+    color: $text-color;
   }
 }
 
 .site-nav {
-  float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  // float: right;
+  // line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
       display: none;
@@ -39,21 +47,58 @@
   .page-link {
     color: $text-color;
     line-height: $base-line-height;
+    text-transform: uppercase;
+    font-size: $base-font-size * 0.8;
+
+    // custom scss
+    // text-transform: uppercase;
+    // font-style: italic;
 
     // Gaps between nav items, but not on the last one
     &:not(:last-child) {
-      margin-right: 20px;
+      // commented this out because we are using raised dots in some cases
+      // margin-right: 20px;
     }
   }
 
+  .category-label {
+    display: none;
+  }
+
+  .category-emoji {
+    margin-left: $base-font-size / 2;
+  }
+
+  div#category-links a:first-child .category-emoji {
+    margin-left: 0;
+  }
+
+  // .page-link:hover > .category-emoji {
+  //   margin-left: 0;
+  // }
+  //
+  // .page-link:hover > .category-label {
+  //   display: inline;
+  // }
+
   @include media-query($on-palm) {
     position: absolute;
-    top: 9px;
-    right: $spacing-unit / 2;
+    // top: 9px;
+    // right: $spacing-unit / 2;
+    top: 10px;
+    right: 10px;
     background-color: $background-color;
     border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
+
+    // position: absolute;
+    // top: 10px;
+    // right: 10px;
+    // background-color: $background-color;
+    // // border-bottom: 1px solid $grey-color-light;
+    // // border-radius: 5px;
+    // text-align: right;
 
     label[for="nav-trigger"] {
       display: block;
@@ -97,6 +142,19 @@
       }
       margin-left: 20px;
     }
+
+    .page-link-bullet {
+        display: none;
+        font-size: $base-font-size * 0.8;
+    }
+
+    .category-label {
+      display: inline;
+    }
+
+    .category-emoji {
+      margin-left: 0;
+    }
   }
 }
 
@@ -111,8 +169,11 @@
 }
 
 .footer-heading {
-  @include relative-font-size(1.125);
+  // @include relative-font-size(1.125);
   margin-bottom: $spacing-unit / 2;
+
+  // custom scss
+  font-style: italic;
 }
 
 .contact-list,
@@ -122,7 +183,7 @@
 }
 
 .footer-col-wrapper {
-  @include relative-font-size(0.9375);
+  // @include relative-font-size(0.9375);
   color: $grey-color;
   margin-left: -$spacing-unit / 2;
   @extend %clearfix;
@@ -177,15 +238,22 @@
  */
 .page-content {
   padding: $spacing-unit 0;
+  padding-bottom: $spacing-unit/2;
   flex: 1;
 }
 
 .page-heading {
-  @include relative-font-size(2);
+  // @include relative-font-size(2);
 }
 
 .post-list-heading {
-  @include relative-font-size(1.75);
+  // @include relative-font-size(1.75);
+
+  // custom scss
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
 }
 
 .post-list {
@@ -198,13 +266,22 @@
 }
 
 .post-meta {
-  font-size: $small-font-size;
-  color: $grey-color;
+  // font-size: $small-font-size;
+  // color: $grey-color;
+
+  // custom scss
+  font-weight: bold;
+  margin-top: -$base-font-size * 0.8;
+  text-align: center;
 }
 
 .post-link {
   display: block;
-  @include relative-font-size(1.5);
+  // @include relative-font-size(1.5);
+
+  // custom scss
+  font-style: normal;
+  text-transform: none;
 }
 
 
@@ -213,22 +290,30 @@
  * Posts
  */
 .post-header {
-  margin-bottom: $spacing-unit;
+  // margin-bottom: $spacing-unit;
 }
 
 .post-title {
-  @include relative-font-size(2.625);
-  letter-spacing: -1px;
-  line-height: 1;
 
-  @include media-query($on-laptop) {
-    @include relative-font-size(2.25);
-  }
+  // custom css
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+
+  // @include relative-font-size(2.625);
+  // letter-spacing: -1px;
+  // line-height: 1;
+  //
+  // @include media-query($on-laptop) {
+  //   @include relative-font-size(2.25);
+  // }
 }
 
 .post-content {
-  margin-bottom: $spacing-unit;
+  // margin-bottom: $spacing-unit;
 
+  /*
+   * Commenting out lines that trigger larger sizes.
   h2 {
     @include relative-font-size(2);
 
@@ -252,4 +337,5 @@
       @include relative-font-size(1.125);
     }
   }
+  */
 }

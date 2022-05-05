@@ -1,0 +1,27 @@
+# Category metadata
+# Categories display in header only if emoji is listed.
+mycategories:
+-
+  label: running
+  emoji: 🏃🏽
+  url: /running/
+-
+  label: hiking
+  emoji: 🏕
+  url: /hiking/
+-
+  label: tech
+  emoji: 🔧
+  url: /tech/
+-
+  label:
+  emoji: 
+  url: /
+
+
+
+# running 👟
+# hiking 🏕
+# canoing 🛶
+# recipes 🧑‍🍳
+# tech 🧑🏽‍🔧
