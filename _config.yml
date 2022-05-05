@@ -24,16 +24,10 @@ description: >- # this means to ignore newlines until "baseurl:"
   A personal record of random stuff related to
   running, hiking, canoeing, cooking, etc.
 baseurl: "" # the subpath of your site, e.g. /blog
-<<<<<<< HEAD
 url: "https://mark.grindy.net" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: markgrindy
 strava_username: markgrindy
 rss: RSS feed
-=======
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
->>>>>>> 7289f72baa7ca1b24b541239382a12f83785792c
 
 # Build settings
 theme: minima
@@ -60,23 +54,6 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-<<<<<<< HEAD
-header_pages:
+header_pages: 
   - pages/about.md
   - pages/contact.md
-=======
-# # Google Analytics
-# google_analytics: G-WGNNWH1HW7
-#
-# # Discus Comments
-# disqus.shortname: mgnet
-#
-# # Build settings
-# theme: minima
-# plugins:
-#   - jekyll-feed
-# header_pages:
-#   – index.md
-#   - about.md
-#   - contact.md
->>>>>>> 7289f72baa7ca1b24b541239382a12f83785792c

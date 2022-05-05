@@ -2,14 +2,10 @@
 layout: default
 ---
 
-<<<<<<< HEAD
-<!-- <h2 class="post-list-heading">{{ page.title }}</h2> -->
-=======
 <div class="home">
-  {%- if page.title -%}
+  {% if page.title %}
     <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
->>>>>>> 7289f72baa7ca1b24b541239382a12f83785792c
+  {% endif %}
 
 {{ content }}
 
@@ -30,11 +26,4 @@ layout: default
   </ul>
 </div>
 
-<<<<<<< HEAD
 {% include fin.html %}
-=======
-    <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
-  {%- endif -%}
-
-</div>
->>>>>>> 7289f72baa7ca1b24b541239382a12f83785792c
