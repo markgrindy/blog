@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<!-- <h2 class="post-list-heading">{{ page.title }}</h2> -->
+<h2 class="post-list-heading">{{ page.title }}</h2>
 
 {{ content }}
 
 <div>
-  <h2 class="post-list-heading">Recent Posts</h2>
+  <h2 class="post-list-heading">Recent {{ page.category | capitalize }} Posts</h2>
   <ul>
-  {% for post in site.posts limit: 10 %}
+  {% for post in site.categories[page.category] %}
     <li>
       <a class="post-url" href="{{ post.url }}">
         <div class="post-wrapper">

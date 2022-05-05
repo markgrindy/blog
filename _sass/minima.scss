@@ -20,6 +20,8 @@ $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
+$code-bg-color:    #eee;
+
 $table-text-align: left !default;
 
 // Width of the content area
@@ -49,5 +51,7 @@ $on-laptop:        800px !default;
 @import
   "minima/base",
   "minima/layout",
-  "minima/syntax-highlighting"
+  "minima/syntax-highlighting",
+  "minima/enumerated-headings",
+  "minima/recent-posts"
 ;

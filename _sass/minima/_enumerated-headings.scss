@@ -1,0 +1,38 @@
+// body {counter-reset: h5counter; counter-reset: h6counter;}
+//
+// h1, h3, h4 {counter-reset: h6counter; counter-reset: h5counter;}
+// h2, h5 {counter-reset: h6counter;}
+//
+// h5::before {
+// 	content: counter(h5counter, upper-roman) ".\0000a0\0000a0";
+// 	counter-increment: h5counter;
+// 	width: 4em;
+// 	float: left;
+// }
+//
+// h6::before {
+// 	content: "\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0" counter(h6counter) ".\0000a0\0000a0";
+// 	counter-increment: h6counter;
+// 	width: 6em;
+// 	float: left;
+// }
+
+
+body {counter-reset: h1counter; counter-reset: h2counter;}
+
+h1, h5, h6 {counter-reset: h2counter;}
+.post-content, h5, h6 {counter-reset: h1counter;}
+
+.post-content h1::before {
+	content: counter(h1counter, upper-roman) ".\0000a0\0000a0";
+	counter-increment: h1counter;
+	width: 4em;
+	float: left;
+}
+
+.post-content h2::before {
+	content: "\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0\0000a0" counter(h2counter) ".\0000a0\0000a0";
+	counter-increment: h2counter;
+	width: 6em;
+	float: left;
+}
