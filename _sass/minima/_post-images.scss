@@ -1,0 +1,34 @@
+img + em {
+  color: $grey-color;
+	display: inline-block;
+  font-size: $base-font-size * 0.8;
+  margin-top: $base-font-size * 0.25;
+  line-height: $base-font-size;
+  font-style: normal;
+}
+
+img + em a {
+  color: $grey-color !important;
+  font-size: $base-font-size * 0.75;
+  text-decoration: none;
+}
+
+// p img {
+//   margin: 0 -20px;
+//   // width: 100vw;
+//   // max-width: 640px;
+// }
+//
+// p img:not([alt]) {
+//   margin: auto;
+//   width: auto;
+//   display: inline-block;
+//   // max-width: 100%;
+// }
+//
+// @media screen and (min-width: 620px) {
+//   img, p img {
+//     // max-width: 600px;
+//     margin: 0 auto;
+//   }
+// }
