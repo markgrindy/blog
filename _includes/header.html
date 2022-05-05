@@ -18,14 +18,13 @@
           </span>
         </label>
 
-        <div class="trigger">
+        <!-- <div class="trigger">
           {% assign var i = 0 %}
           {%- for path in page_paths -%}
             {%- assign my_page = site.pages | where: "path", path | first -%}
             {%- if my_page.title -%}
               {% if i > 0 %}
                 <span class="page-link-bullet">
-                  <!-- &#8226; -->
                   &#xb7;
                 </span>
               {% endif %}
@@ -33,24 +32,8 @@
             <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
             {%- endif -%}
           {%- endfor -%}
-        </div>
-        <!-- <div class="trigger">
-          {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%}
-          {%- for path in page_paths offset: continue -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
-              <span class="page-link-bullet">
-                &#xb7;
-              </span>
-              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-          {%- endfor -%}
         </div> -->
+
         {% include category-links.html %}
       </nav>
     {%- endif -%}
