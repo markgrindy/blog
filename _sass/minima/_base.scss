@@ -59,7 +59,7 @@ img {
   vertical-align: middle;
 
   // custom scss
-  width: 100%; 
+  width: 100%;
 }
 
 
@@ -140,15 +140,16 @@ h6 {
  */
 a {
   color: $brand-color;
-  text-decoration: none;
+  // text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    // color: darken($brand-color, 15%);
+    color: $brand-color; // custom css
   }
 
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    // color: $brand-color;
+    text-decoration: none;
   }
 
   .social-media-list &:hover {

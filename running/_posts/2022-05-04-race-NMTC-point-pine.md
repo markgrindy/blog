@@ -9,4 +9,4 @@ location: Duluth, Minn.
 
 28:16, 18th.
 
-<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7090925989/embed/8f05adc838b86e0290587e275738a616a3a1d350'></iframe>
+<iframe height='405' max-width='100%' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7090925989/embed/8f05adc838b86e0290587e275738a616a3a1d350'></iframe>

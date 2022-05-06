@@ -7,7 +7,17 @@
   min-height: $spacing-unit * 1.865;
 
   // custom css
-  text-decoration: none; 
+  display: flex;
+  align-items: center;
+
+  // custom css
+  text-decoration: none;
+  & a {
+    text-decoration: none;
+  }
+  & a:hover {
+    text-decoration: underline;
+  }
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -15,6 +25,7 @@
 
 .custom-header {
   text-align: center;
+  padding-bottom: $base-font-size;
 }
 
 .site-title {
@@ -86,12 +97,13 @@
 
   @include media-query($on-palm) {
     position: absolute;
-    // top: 9px;
-    // right: $spacing-unit / 2;
-    top: 10px;
-    right: 10px;
+    top: 25%;
+    right: $spacing-unit / 2;
+    // top: 10px;
+    // right: 10px;
+    // float: right;
     background-color: $background-color;
-    border: 1px solid $grey-color-light;
+    // border: 1px solid $grey-color-light;
     border-radius: 5px;
     text-align: right;
 
@@ -99,7 +111,7 @@
     // top: 10px;
     // right: 10px;
     // background-color: $background-color;
-    // // border-bottom: 1px solid $grey-color-light;
+    // border-bottom: 1px solid $grey-color-light;
     // // border-radius: 5px;
     // text-align: right;
 
@@ -134,6 +146,9 @@
     input:checked ~ .trigger {
       display: block;
       padding-bottom: 5px;
+      background-color: $grey-color-light;
+      border-bottom: 1px solid $grey-color-dark;
+      border-top: 1px solid $grey-color-dark;
     }
 
     .page-link {
@@ -243,6 +258,11 @@
   padding: $spacing-unit 0;
   padding-bottom: $spacing-unit/2;
   flex: 1;
+
+  // ensures urls and long words don't break the layout
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
 }
 
 .page-heading {

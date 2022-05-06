@@ -1,24 +1,27 @@
-.post-wrapper {
+.recent-post-wrapper {
   display: block;
   margin-bottom: $base-font-size;
 }
 
-a.post-url {
+a.recent-post-url {
   color: $text-color;
+  text-decoration: none;
 
   &:hover {
+    // text-decoration: none;
+  }
+
+  &:hover > .recent-post-wrapper > .recent-post-title {
     text-decoration: none;
   }
-
-  &:hover > .post-wrapper > .post-title {
-    text-decoration: underline;
-  }
 }
 
-.post-title {
-  font-weight: bold;
+.recent-post-title {
+  // font-weight: bold;
+  color: $brand-color;
+  text-decoration: underline;
 }
 
-.post-excerpt p {
+.recent-post-excerpt p {
   display: contents;
 }
