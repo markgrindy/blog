@@ -20,6 +20,20 @@ layout: default
       </p>
   </header>
 
+  {% if page.image %}
+    <img src="{{ page.image }}" alt="{{ page.caption }}">
+       <em>
+         {%- if page.caption -%}
+         {{ page.caption }}
+         {%- endif -%}
+         {%- if page.image-credit -%}
+         <a href="{{ page.image-credit-link }}">{{ page.image-credit }}</a>
+         {%- endif -%}
+       </em>
+       <p></p>
+       {% include br.html %}
+   {% endif %}
+
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>

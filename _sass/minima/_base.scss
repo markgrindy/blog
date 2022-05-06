@@ -55,8 +55,11 @@ main {
  * Images
  */
 img {
-  max-width: 100%;
+  // max-width: 100%;
   vertical-align: middle;
+
+  // custom scss
+  width: 100%; 
 }
 
 
@@ -162,11 +165,11 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
+  color: $grey-color-dark;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit / 2;
-  @include relative-font-size(1.125);
-  letter-spacing: -1px;
+  // @include relative-font-size(1.125);
+  // letter-spacing: -1px;
   font-style: italic;
 
   > :last-child {
