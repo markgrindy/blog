@@ -11,11 +11,11 @@ layout: default
   <ul>
   {% for post in site.categories[page.category] %}
     <li>
-      <a class="post-url" href="{{ post.url }}">
-        <div class="post-wrapper">
-          <span class="post-date">{{ post.date | date: "%-d %b %Y" }}: </span>
-          <span class="post-title">{{ post.title }}.</span>
-          <span class="post-excerpt">{{ post.excerpt | strip_html }}</span>
+      <a class="recent-post-url" href="{{ post.url }}">
+        <div class="recent-post-wrapper">
+          <span class="recent-post-date">{{ post.date | date: "%-d %b %Y" }}: </span>
+          <span class="recent-post-title">{{ post.title }}.</span>
+          <span class="recent-post-excerpt">{{ post.excerpt | strip_html }}</span>
         </div>
       </a>
     </li>
