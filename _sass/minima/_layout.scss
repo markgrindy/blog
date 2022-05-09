@@ -87,10 +87,15 @@
     margin-left: 0;
   }
 
-  // .page-link:hover > .category-emoji {
-  //   margin-left: 0;
-  // }
-  //
+  .category-emoji {
+    // transition: all 0.3s ease;
+    font-size: $base-font-size * 1.2;
+  }
+
+  .page-link:hover > .category-emoji {
+    // font-size: $base-font-size * 2;
+  }
+
   // .page-link:hover > .category-label {
   //   display: inline;
   // }
@@ -172,6 +177,7 @@
 
     .category-emoji {
       margin-left: 0;
+      font-size: $base-font-size * 0.8;
     }
   }
 }

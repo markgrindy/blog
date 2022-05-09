@@ -10,13 +10,13 @@ mycategories:
   emoji: 🏕
   url: /hiking/
 -
+  label: cooking
+  emoji: 🍳
+  url: /cooking/
+-
   label: tech
   emoji: 🔧
   url: /tech/
--
-  label:
-  emoji: 
-  url: /
 
 
 
