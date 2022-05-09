@@ -190,6 +190,9 @@
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-heading {
@@ -204,6 +207,21 @@
 .social-media-list {
   list-style: none;
   margin-left: 0;
+}
+
+// custom css
+.social-media-list li {
+  display: inline-block;
+
+  // Gaps between nav items, but not on the last one
+  &:not(:last-child) {
+    margin-right: $base-font-size;
+  }
+}
+
+// custom css
+.social-media-list .username {
+  display: none;
 }
 
 .footer-col-wrapper {
