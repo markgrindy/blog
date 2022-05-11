@@ -12,3 +12,28 @@ caption:
 ---
 
 Notes on setting up Strava to work with Google docs.
+
+# Configure Strava API & Google Sheet
+
+Source: [Elifk](https://elifk.us/en/retrieving-your-strava-data-with-google-app-scripts/).
+
+To-do:
+* date
+  * new Date($var);
+  * DONE
+* time
+  * if > 3600
+    * `TEXT($var,"[h]\hmm\m")`
+  * else
+    * `TEXT($var,"mm\m")`
+* dist
+  * `TEXT($var,"##.0")`
+* pace
+  * `TEXT($var,"")`
+
+
+# Configure Weather API
+
+# Configure GitHub yaml save, stage, commit
+
+# Configure Jekyll
