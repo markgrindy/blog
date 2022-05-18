@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: recipe
 title:  "Salmon Rice Cucumber Spicy Mayo Bowl"
 date:   2022-03-26
 revised: 2022-05-18
@@ -86,5 +86,5 @@ Deep flavor. Nice texture. Very filling.
 
 ### Notes
 * 2022-03-26 Becca & Lee. Pan-seared whitefish. Cauliflower rice.  
-* 2022-04-28 Paul & Melanie. Large diced salmon, sous vide. Super good. Seared skin was a hit; even Sarah liked it. 
+* 2022-04-28 Paul & Melanie. Large diced salmon, sous vide. Super good. Seared skin was a hit; even Sarah liked it.
 * 2022-05-18 Bryan & Kate.
