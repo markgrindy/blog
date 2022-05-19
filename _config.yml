@@ -64,3 +64,6 @@ csv_reader:
       - all
     headers: true
     encoding: utf-8
+
+# to hide future-dated posts, set this to false
+future: true 
