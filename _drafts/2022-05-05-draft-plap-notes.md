@@ -9,5 +9,6 @@ image:
 image-credit: CalTopo
 image-credit-link:
 caption:
+published: false
 ---
-Notes from PLAP.
+Notes.

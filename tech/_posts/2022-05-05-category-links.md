@@ -4,9 +4,10 @@ title:  "Notes: Category links"
 date:   2022-05-05
 category: tech
 author: false
+published: false 
 ---
 
-Jotting down changes made to modify the header. 
+Jotting down changes made to modify the header.
 
 In `header.html`:
 

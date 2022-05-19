@@ -4,6 +4,7 @@ title:  "Notes: Setting up this site"
 date:   2022-05-03
 categories: tech
 author: false
+published: false
 ---
 
 Notes on (re)building the site, which runs on Jekyll.
