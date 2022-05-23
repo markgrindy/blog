@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Race: NMTC Point Pine"
+title:  "Race Recap: NMTC Point Pine"
 date:   2022-05-04
 tags: running trail
 author: false
