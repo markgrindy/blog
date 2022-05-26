@@ -3,7 +3,7 @@ layout: post
 title:  "SHT Shakeout No. 2"
 date:   2022-05-02
 revised: 2022-05-05
-tags:   trail sht
+tags:   hiking trail sht
 author: false
 location: Duluth, Minn.
 image: https://lh3.googleusercontent.com/IPgGnINokNMEy8IebDwgRGK5z3DF_x_TCIvgS7UpWVUnwVqqGiJnCJhTF8FO_lHZyKbjB3rr032uPr7gsAHKktjBZJtNJ8BKp_TmfdvtDv98fBQHje5S2K3e-_cx5_Q_gFZH98lW12Q=w698-h524-no
