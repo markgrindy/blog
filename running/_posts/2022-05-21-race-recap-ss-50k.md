@@ -119,6 +119,8 @@ With the runners assembled at the start line, John delivered his briefing. That 
 
 Just before he was going to start the countdown, John allowed a kind soul to grab the microphone out of his hand, in order to lead everyone in singing “for he’s a jolly good fellow.” This moment was absolutely a highlight of the day. I admit we did a terrible job of singing in unison, though to be fair the crowd was huge. We yelled “we love you John.” John got the mic back, made a sheepish face, and joked “well, that was the worst moment of my life.” Everyone laughed. And then we were off.
 
+<iframe height='405' width='590' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7180853513/embed/0b4ebec60f16a32ef42111710d0f925adf8e98bd'></iframe>
+
 # The race
 
 The pace out of the gate was far from brisk. It seemed even the folks at the front were committed to taking it easy, even though we had asphalt for the first half mile to cruise up. A group of four went up the road, and I immediately and happily let them go. I chugged along in a group of three, and it felt like everyone was running the first hill climb at an easy clip. By the top, I had let the two guys with me get a sizeable, 30-second gap. I was prioritizing stay relaxed.
