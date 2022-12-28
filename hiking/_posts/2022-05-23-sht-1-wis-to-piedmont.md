@@ -1,11 +1,12 @@
 ---
-layout: post
+layout: activity
 title:  "SHT Episode 1"
 date:   2022-05-23
 revised: 2022-05-25
 tags:   hiking trail sht
 author: false
 location: "Wi. border to Haines Rd."
+activity-url: https://www.strava.com/activities/7192616742/embed/6d550ee1c8f955243f0beb53728feaaedf3d8c4f
 image: https://images.unsplash.com/photo-1620868208080-30aeae9a8e7a?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340
 image-credit: Cody Otto / Unsplash
 image-credit-link: https://unsplash.com/photos/ioYXY8Rc2ng
@@ -174,6 +175,17 @@ When we got home, the theme of the evening was water usage. I started a load of 
 * data: [https://www.strava.com/activities/7192616742](https://www.strava.com/activities/7192616742)
 
 ### EPISODES:
-1. Wis. border to Piedmont
-2. [Piedmont to Chester Park](/hiking/2022/05/25/sht-ep-2.html)
-3. [Chester Park to ? ](/hiking/2022/05/25/sht-ep-3.html)
+1. [Wis. border to Piedmont](/hiking/2022/05/23/sht-1-wis-to-piedmont.html)
+2. [to Chester Park](/hiking/2022/05/25/sht-2-to-chester-park.html)
+3. [to Lone Tree](/hiking/2022/05/26/sht-3-to-lone-tree.html)
+4. [to Big Bend](/hiking/2022/05/27/sht-4-to-big-bend.html)
+5. [to Reeves Falls](/hiking/2028/05/28/sht-5-to-reeves-falls.html)
+6. [to Hwy 2](/hiking/2022/05/29/sht-6-to-hwy-2.html)
+7. [to Fault Line Creek](/hiking/2022/05/31/sht-7-to-fault-line-creek.html)
+8. [to E Kennedy Creek](/hiking/2022/06/01/sht-8-to-kennedy-creek.html)
+9. [to Crosby-Manitou](/hiking/2022/06/02/sht-9-to-crosby-manitou.html)
+10. [to Temperance](/hiking/2022/06/03/sht-10-to-temperance.html)
+11. [to Big White Pine](/hiking/2022/06/04/sht-11-to-big-white-pine.html)
+12. [north to Grand Marais](/hiking/2022/06/05/sht-12-north-to-grand-marais.html)
+13. [270° Overlook to NW Little Brule River](/hiking/2022/06/06/sht-13-270-to-little-brule.html)
+14. [south to Grand Marais](/hiking/2022/06/07/sht-14-south-to-grand-marais.html)

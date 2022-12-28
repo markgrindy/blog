@@ -1,0 +1,56 @@
+---
+layout: default
+---
+{% include date-word-count.html %}
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      {%- if page.author -%}
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span><br/>
+      {%- endif -%}
+      {%- if page.location -%}
+        <span itemprop="location">{{ page.location }}</span><br/>
+      {%- endif -%}
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      </p>
+  </header>
+
+  {% if page.activity-url %}
+  <div class="container">
+    <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+  </div>
+  <hr>
+  <div class="container">
+    <!-- <iframe class="responsive-iframe" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe> -->
+    <iframe class="responsive-iframe" frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/activities/7192616742/embed/6d550ee1c8f955243f0beb53728feaaedf3d8c4f'></iframe>
+  </div>
+  {% else if page.image %}
+    <img src="{{ page.image }}" alt="{{ page.caption }}">
+       <em>
+         {%- if page.caption -%}
+         {{ page.caption }}
+         {%- endif -%}
+         {%- if page.image-credit %}
+         <a href="{{ page.image-credit-link }}">{{ page.image-credit }}</a>
+         {%- endif -%}
+       </em>
+       <p></p>
+       {% include br.html %}
+   {% endif %}
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+  {% include fin.html %}
+</article>

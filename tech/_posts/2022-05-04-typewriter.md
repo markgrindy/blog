@@ -25,7 +25,7 @@ revised: 2022-05-05
 ---
 ```
 
-_layouts/posts.html:
+_layouts/post.html:
 
 ```
 {% raw %}

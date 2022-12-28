@@ -5,7 +5,7 @@ date:   2022-05-26
 revised: 2022-05-25
 tags:   hiking trail sht
 author: false
-location: Chester Park to Lone Tree 
+location: Chester Park to Lone Tree
 image: https://images.unsplash.com/photo-1600189810473-11b403ccbf18?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370
 image-credit: Weston M / Unsplash
 image-credit-link: https://unsplash.com/photos/z--pX-jQznc
@@ -163,16 +163,17 @@ TK
 * data: [https://www.strava.com/activities/]()
 
 ### EPISODES:
-1. [start Wis. border to Piedmont](/hiking/2022/05/23/sht-ep-1.html)
-2. [to Chester Park](/hiking/2022/05/25/sht-ep-2.html)
-3. [to Lone Tree](/hiking/2022/05/26/sht-ep-3.html)
-4. [to Big Bend](/hiking/2022/05/27/sht-ep-4.html)
-5. [to Reeves Falls](/hiking/2022/05/28/sht-ep-5.html)
-6. [to Fault Line Creek](/hiking/2022/05/31/sht-ep-6.html)
-7. [to East Kennedy Creek](/hiking/2022/06/01/sht-ep-7.html)
-8. [to Crosby-Manitou](/hiking/2022/06/02/sht-ep-8.html)
-9. [to Temperance](/hiking/2022/06/03/sht-ep-9.html)
-10. [to Big White Pine](/hiking/2022/06/04/sht-ep-10.html)
-11. [to Grand Marais](/hiking/2022/06/05/sht-ep-11.html)
-12. [Canadian Border to Northwest Little Brule River](/hiking/2022/06/06/sht-ep-12.html)
-13. [finish Grand Marais](/hiking/2022/06/07/sht-ep-13.html)
+1. [Wis. border to Piedmont](/hiking/2022/05/23/sht-1-wis-to-piedmont.html)
+2. [to Chester Park](/hiking/2022/05/25/sht-2-to-chester-park.html)
+3. [to Lone Tree](/hiking/2022/05/26/sht-3-to-lone-tree.html)
+4. [to Big Bend](/hiking/2022/05/27/sht-4-to-big-bend.html)
+5. [to Reeves Falls](/hiking/2028/05/28/sht-5-to-reeves-falls.html)
+6. [to Hwy 2](/hiking/2022/05/29/sht-6-to-hwy-2.html)
+7. [to Fault Line Creek](/hiking/2022/05/31/sht-7-to-fault-line-creek.html)
+8. [to E Kennedy Creek](/hiking/2022/06/01/sht-8-to-kennedy-creek.html)
+9. [to Crosby-Manitou](/hiking/2022/06/02/sht-9-to-crosby-manitou.html)
+10. [to Temperance](/hiking/2022/06/03/sht-10-to-temperance.html)
+11. [to Big White Pine](/hiking/2022/06/04/sht-11-to-big-white-pine.html)
+12. [north to Grand Marais](/hiking/2022/06/05/sht-12-north-to-grand-marais.html)
+13. [270° Overlook to NW Little Brule River](/hiking/2022/06/06/sht-13-270-to-little-brule.html)
+14. [south to Grand Marais](/hiking/2022/06/07/sht-14-south-to-grand-marais.html)
